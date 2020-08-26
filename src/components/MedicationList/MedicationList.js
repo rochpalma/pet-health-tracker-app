@@ -4,9 +4,8 @@ import { Link } from 'react-router-dom';
 export default class MedicationList extends Component {
     render() {
         return (  
-            <div>
-                <h4>Medication List</h4>
-                <p>Sample Medication</p>
+            <div className='med-list'>
+                <h4>Medication List: <span>Sample Medication</span></h4>  
                 <Link to='/addmedication' className='btn'>Add Medication</Link>
             </div>
         );

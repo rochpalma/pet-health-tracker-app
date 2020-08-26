@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import Logo from '../Logo/Logo';
 import ProfileNav from '../ProfileNav/ProfileNav';
 import DogForm from '../DogForm/DogForm';
+import Footer from '../Footer/Footer';
 
 export default class DogProfileUpdate extends Component {
     render(){
         return(
-            <>
-                <Logo />
+            <div className='PagWrapper'>
                 <ProfileNav />
-                <div className='PagWrapper'>
-                    <div className='MainContent'>
+                <main className='container'>
+                    <div className='MainContent vertical-center center'>
                         <DogForm />
                     </div>
-                </div>
-            </>
+                </main>
+                <Footer />
+            </div>
         )
     }
 }

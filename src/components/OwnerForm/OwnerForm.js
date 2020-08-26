@@ -55,6 +55,7 @@ export default class OwnerForm extends Component {
                     </div>
                     <div className="col-xs-9">
                         <Link to='/profile' className='btn'>Save</Link> 
+                        <Link to='/profile' className='btn'>Cancel</Link>
                     </div>          							     								
                 </form>
             </section>

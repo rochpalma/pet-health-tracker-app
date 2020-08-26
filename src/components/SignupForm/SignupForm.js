@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default class SignupForm extends Component {
     render() {
         return (  
-            <div className='main-display signup-bg'>
+            <div>
                 <main>
                     <div className='userform-container'>
                         <form 
@@ -21,7 +21,7 @@ export default class SignupForm extends Component {
                                 <input type='password' name='password' id='password' required/>
                                 <label htmlFor='password-2'>Confirm Password</label>
                                 <input type='password' name='password-2' id='password-2' required className='red'/>
-                                <Link to='/signup' className='btn'>Signup</Link>
+                                <Link to='/welcome' className='btn'>Signup</Link>
                             </div>
                         </form>
                     </div>

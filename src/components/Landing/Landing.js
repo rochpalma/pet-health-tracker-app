@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
 import Logo from '../Logo/Logo';
 import LandingButtons from '../LandingButtons/LandingButtons'
+import Footer from '../Footer/Footer';
 
 export default class Landing extends Component {
     render(){
         return(
             <>
                 <Logo />
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h2>
-                <LandingButtons />
+                <main className='container-center'>
+                    <div className='center welcome-container'>
+                        <h2>Track your pet health data.</h2>
+                        <h3>Log your pet's vaccine records, behavior and notes</h3>
+                        <LandingButtons />
+                    </div>
+                </main>
+                <Footer />
             </>
         )
     }

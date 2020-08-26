@@ -43,7 +43,7 @@ export default class DogForm extends Component {
                     </div>
                     <div className="row">								   
                         <div className="col-xs-3 text-right">
-                            <label htmlFor="spayed"> Spayed or Neutered</label>
+                            <label htmlFor="spayed"> Spayed</label>
                         </div>
                         <div className="col-xs-9">
                             <input type='radio' id='yes' name='spayed' value='yes'
@@ -63,10 +63,12 @@ export default class DogForm extends Component {
                             </select>
                         </div>       							
                     </div>
-
                     <div className="col-xs-9">
                         <Link to='/profile' className='btn'>Save</Link> 
-                    </div>          							     								
+                    </div>  
+                    <div className="col-xs-9">
+                        <Link to='/profile' className='btn'>Cancel</Link> 
+                    </div>        							     								
                 </form>
             </section>
         )

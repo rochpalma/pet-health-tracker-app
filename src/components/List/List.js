@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default class HomePageButtons extends Component {
     render() { 
         return (  
-            <div className=''>
+            <div className='list'>
                 <ul>
                     <li>
                         <h3>Vaccine on 08/20/2020</h3>

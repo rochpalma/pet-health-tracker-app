@@ -4,11 +4,9 @@ import { Link } from 'react-router-dom';
 export default class ReminderForm extends Component {
     render() {
         return (  
-            <div>
+            <>
                 <div className='userform-container'>
-                    <form 
-                        className='form-border'
-                    >                
+                    <form >                
                         <div className='form-fields'>
                             <h3>Care Notes</h3>
                             <textarea id='care-note' name='care-note'
@@ -18,11 +16,12 @@ export default class ReminderForm extends Component {
                             <textarea id='food-note' name='food-note'
                                             rows='5' cols='33'>
                             </textarea>
+                            <br/>
                             <Link to='/home' className='btn'>Save</Link>
                         </div>
                     </form>
                 </div>
-            </div>
+            </>
         );
     }
 }

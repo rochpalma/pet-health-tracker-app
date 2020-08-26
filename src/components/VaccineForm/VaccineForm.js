@@ -6,6 +6,7 @@ export default class VaccineForm extends Component {
         return (  
             <main>
                 <div className='event-form-container'>
+                    <h2>Add Vaccine</h2>
                     <form>
                         <div className='event-form-fields event-form-border'>                                
                             <label htmlFor='vaccine'>Vaccine Name</label>

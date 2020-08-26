@@ -13,7 +13,7 @@ import EventSelection from './components/EventSelection/EventSelection';
 import Reminders from './components/Reminders/Reminders';
 import AddReminder from './components/AddReminder/AddReminder';
 import Note from './components/Note/Note';
-import AddMedication from './components/Profile/Profile';
+import AddMedication from './components/AddMedication/AddMedication';
 import Records from './components/Records/Records';
 import AddVaccine from './components/AddVaccine/AddVaccine';
 import Profile from './components/Profile/Profile';

@@ -33,6 +33,7 @@ export default class ProfileForm extends Component {
                             <select name='breed' id='breed' required>
                             <option value='Poodle (Toy)' selected>Poodle (Toy)</option>
                             </select>
+                            <br />
                             <Link to='/home' className='btn'>Save</Link>      
                         </div>                           
                     </form>

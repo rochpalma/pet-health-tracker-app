@@ -14,7 +14,7 @@ export default class ReminderForm extends Component {
                             <div className='form-fields'>
                                 <h3>Remind me to</h3>
                                 <textarea id='remind' name='remind'
-                                                rows='5' cols='33'>
+                                                rows='3' cols='33'>
                                 </textarea>
                                 <label htmlFor='reminder-date'>When</label>
                                 <input type='date' name='reminder-date' id='reminder-date' required/>
@@ -22,8 +22,9 @@ export default class ReminderForm extends Component {
                                 <input type='text' name='rpt' id='rpt' required/>
                                 <label htmlFor='reminder-type'>When</label>
                                 <input type='text' name='reminder-type' id='reminder-type' required/>
+                                <label htmlFor='notes'>Note</label>
                                 <textarea id='notes' name='notes'
-                                                rows='5' cols='33'>
+                                                rows='3' cols='33'>
                                 </textarea>
                                 <Link to='/home' className='btn'>Save</Link>
                             </div>

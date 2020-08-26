@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class MedicationForm extends Component {
     render() { 
         return (  
-            <main>
+            <main>   
                 <div className='event-form-container'>
+                    <h2>Add Medication</h2>
                     <form>
                         <div className='event-form-fields event-form-border'>                                
                             <label htmlFor='medicine'>Medicine</label>
@@ -24,6 +26,7 @@ export default class MedicationForm extends Component {
                             <textarea id='notes' name='notes'
                                             rows='5' cols='33'>
                             </textarea>
+                            <br />
                             <Link to='/home' className='btn'>Save</Link>      
                         </div>                           
                     </form>
@@ -33,4 +36,3 @@ export default class MedicationForm extends Component {
     }
 }
  
-export default ProfileSetup;
