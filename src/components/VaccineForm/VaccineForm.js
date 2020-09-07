@@ -17,6 +17,12 @@ export default class VaccineForm extends Component {
                             <input type='text' name='serial-no' id='serial-no' required/>
                             <label htmlFor='vet'>Vet</label>
                             <input type='text' name='vet' id='vet' required/>
+                            <label htmlFor='clinic'>Clinic</label>
+                            <input type='text' name='clinic' id='clinic' required/>
+                            <label htmlFor='city'>City</label>
+                            <input type='text' name='city' id='city' required/>
+                            <label htmlFor='state'>State</label>
+                            <input type='text' name='state' id='state' required/>
                             <Link to='/home' className='btn'>Save</Link>      
                         </div>                           
                     </form>

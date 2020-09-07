@@ -53,7 +53,7 @@ export default class OwnerForm extends Component {
                             <input type='text' name='password-2' id='password-2' required/>
                         </div>       							
                     </div>
-                    <div className="col-xs-9">
+                    <div className="center">
                         <Link to='/profile' className='btn'>Save</Link> 
                         <Link to='/profile' className='btn'>Cancel</Link>
                     </div>          							     								

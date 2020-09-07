@@ -23,8 +23,7 @@ export default class MedicationForm extends Component {
                                 <label htmlFor='no'>No</label>
                             </div>
                             <label htmlFor='notes'>Notes</label>
-                            <textarea id='notes' name='notes'
-                                            rows='5' cols='33'>
+                            <textarea id='notes' name='notes' rows='5' cols='33'>
                             </textarea>
                             <br />
                             <Link to='/home' className='btn'>Save</Link>      

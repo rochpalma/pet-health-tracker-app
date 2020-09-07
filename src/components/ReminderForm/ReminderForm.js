@@ -26,6 +26,7 @@ export default class ReminderForm extends Component {
                                 <textarea id='notes' name='notes'
                                                 rows='3' cols='33'>
                                 </textarea>
+                                <br />
                                 <Link to='/home' className='btn'>Save</Link>
                             </div>
                         </form>
