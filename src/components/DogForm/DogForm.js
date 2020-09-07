@@ -12,7 +12,15 @@ export default class DogForm extends Component {
                 
                 <form 
                     className="panel-body"
-                >						   
+                >	
+                    <div className="row">								   
+                        <div className="col-xs-3 text-right">
+                            <label htmlFor='name'>Picture</label>
+                        </div>
+                        <div className="col-xs-9">
+                            <input type="file"/>
+                        </div>       							
+                    </div>					   
                     <div className="row">								   
                         <div className="col-xs-3 text-right">
                             <label htmlFor='name'>Name</label>
@@ -63,12 +71,11 @@ export default class DogForm extends Component {
                             </select>
                         </div>       							
                     </div>
-                    <div className="col-xs-9">
+                    <div className='center'>
+                        <br />
                         <Link to='/profile' className='btn'>Save</Link> 
-                    </div>  
-                    <div className="col-xs-9">
                         <Link to='/profile' className='btn'>Cancel</Link> 
-                    </div>        							     								
+                   </div>         							     								
                 </form>
             </section>
         )

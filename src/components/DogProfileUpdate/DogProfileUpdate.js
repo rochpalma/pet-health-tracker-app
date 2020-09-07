@@ -9,7 +9,7 @@ export default class DogProfileUpdate extends Component {
             <div className='PagWrapper'>
                 <ProfileNav />
                 <main className='container'>
-                    <div className='MainContent vertical-center center'>
+                    <div className='MainContent'>
                         <DogForm />
                     </div>
                 </main>

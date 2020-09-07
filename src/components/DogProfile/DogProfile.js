@@ -12,7 +12,12 @@ export default class DogProfile extends Component {
                     </div>
                     <br/>
                 </div>         
-                <div className="panel-body">            
+                <div className="panel-body">
+                    <div className="row">
+                        <div className='center'>
+                            <img src='https://emborapets.com/wp-content/uploads/2019/05/120860870_m-1.jpg' alt='dp' className='dp-img' />
+                        </div> 
+                    </div>            
                     <div className="row"> 
                         <div className="col-xs-3 text-right">
                             <label>Name:</label>
@@ -33,7 +38,7 @@ export default class DogProfile extends Component {
                     </div> 
                     <div className="row"> 
                         <div className="col-xs-3 text-right">
-                            <label>Spayed or Neutered:</label>
+                            <label>Spayed:</label>
                         </div>
                         <div className="col-xs-9">No</div>
                     </div>  

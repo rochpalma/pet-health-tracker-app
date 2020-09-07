@@ -10,8 +10,8 @@ export default class Profile extends Component {
                 <div className='PagWrapper'>
                     <ProfileNav />
                     <main className='container'>
-                        <div className='MainContent vertical-center center'>
-                        <h1>Profile Summary</h1> 
+                        <div className='MainContent'>
+                            <h1>Profile Summary</h1> 
                             <DogProfile />
                             <OwnerProfile />
                         </div>

@@ -6,18 +6,17 @@ export default class ProfileNav extends Component {
     render() { 
         return (  
             <nav>
+                
+                <div id="ham-nav">
                 <Logo />
-                <ul>
-                    <li>
-                        <Link to='/home'>Home</Link>
-                    </li>
-                    <li>
-                        <Link to='/profile'>Profile</Link>
-                    </li>
-                    <li>
+                    <label htmlFor="hamburger">&#9776;</label>
+                    <input type="checkbox" id="hamburger" />
+                    <div id='ham-items'>
+                        <Link to='/home'>Home</Link>                
+                        <Link to='/profile'>Profile</Link>                 
                         <Link to='/'>Logout</Link>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </nav>
         );
     }
