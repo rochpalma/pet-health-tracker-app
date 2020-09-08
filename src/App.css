@@ -150,13 +150,13 @@ a{
   margin: auto;
   text-align: center;
 }
+.event-form-fields input[type=date]{
+  padding: 15px;
+}
 
 .MainContent{
   width: 50%;
-  /* margin: auto; */
   font-size: 16px;
-  /* left: 50%        */
-
 }
 
 .container{
@@ -168,17 +168,6 @@ a{
 .center .btn {
   margin-right: 20px;
 }
-/*
-.center{
-  text-align: center;
-}
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-} */
 
 .panel {
   margin-bottom: 21px;
@@ -334,9 +323,11 @@ main{
   font-size: 14px;
 }
 
-.container-center{
+.container-center-note{
   align-self: center;
+  height: 60vh;
 }
+
 
 footer{
   position: fixed;
@@ -353,6 +344,8 @@ footer p{
   text-align: center;
   color: #FFFFFF;
   font-size: 14px;
+  margin: 0;
+  
 }
 
 .userBtn{
@@ -436,6 +429,23 @@ nav li, .list li, .event-type li{
   height: 300px;
 }
 
+/*footer section*/
+i{
+  color: black;
+}
+i:hover{
+  color: #ff9292;
+}
+
+
+
+footer ul {
+  margin-top: 10px;
+}
+
+footer li {
+  margin: 0 10px;
+}
 
 @media screen and (min-width: 650px) {
 
@@ -461,7 +471,7 @@ nav li, .list li, .event-type li{
     font-size: 16px;
   }
   .event-form-border{
-    height: 590px;
+    height: 620px;
     width: 80%;
   }
 
@@ -496,6 +506,8 @@ nav li, .list li, .event-type li{
 
   footer p{
     font-size: 18px;
+
+    
   }
 
   .userBtn{
@@ -520,6 +532,7 @@ nav li, .list li, .event-type li{
     list-style-type: none;
     margin-right: 20px;
   }
+
 
 }
 

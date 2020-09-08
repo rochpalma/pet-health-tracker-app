@@ -9,7 +9,7 @@ export default class Note extends Component {
         return(
             <>
                 <ProfileNav />
-                <main className='container-center'> 
+                <main className='container-center-note'> 
                     <div className='center welcome-container'> 
                         <h2>Notes</h2>
                         <div className=' event-container'>
